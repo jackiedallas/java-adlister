@@ -27,17 +27,20 @@
 <html>
 <head>
     <title>Login</title>
+    <%@include file="partials/head_links.jsp"%>
 </head>
 <body>
-<h1>Login Form</h1>
-<form action="login.jsp" method="POST">
-    <label for="username">Username</label>
-    <input type="text" id="username" name="username">
-    <br><br>
-    <label for="password">Password</label>
-    <input type="password" id="password" name="password">
-    <br><br>
-    <input type="submit" value="Submit">
-</form>
+<%@include file="partials/navbar.jsp"%>
+<%@include file="partials/login_form.jsp"%>
+<%--<form action="login.jsp" method="POST">--%>
+<%--    <label for="username">Username</label>--%>
+<%--    <input type="text" id="username" name="username">--%>
+<%--    <br><br>--%>
+<%--    <label for="password">Password</label>--%>
+<%--    <input type="password" id="password" name="password">--%>
+<%--    <br><br>--%>
+<%--    <input type="submit" value="Submit">--%>
+<%--</form>--%>
+<%@include file="partials/scripts.jsp"%>
 </body>
 </html>
