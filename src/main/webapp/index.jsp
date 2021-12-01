@@ -3,10 +3,10 @@
 <html>
 <head>
     <title><%= "some title" %></title>
+    <%@include file="partials/head_links.jsp"%>
 </head>
 <body>
-    <a href="login.jsp">Login</a>
-<%--    <a href="profile.jsp"></a>--%>
-<%--    <a href=""></a>--%>
+    <%@include file="partials/navbar.jsp"%>
+    <%@include file="partials/scripts.jsp"%>
 </body>
 </html>
