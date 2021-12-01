@@ -5,11 +5,8 @@
     <title><%= "some title" %></title>
 </head>
 <body>
-    <c:if test="true">
-        <h1>Variable names should be very descriptive</h1>
-    </c:if>
-    <c:if test="false">
-        <h1>single letter variable names are good</h1>
-    </c:if>
+    <a href="login.jsp">Login</a>
+<%--    <a href="profile.jsp"></a>--%>
+<%--    <a href=""></a>--%>
 </body>
 </html>
