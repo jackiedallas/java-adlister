@@ -45,7 +45,7 @@ public class PizzaOrderServlet extends HttpServlet {
         """, crust, sauce, size, address);
 
         // CREATE BRIDGE WITH DISPATCH REQUEST
-//        request.getRequestDispatcher("/pizza-order.jsp").forward(request, response);
-        response.sendRedirect("/pizza-order");
+        request.getRequestDispatcher("/pizza-order.jsp").forward(request, response);
+//        response.sendRedirect("/pizza-order");
     }
 }

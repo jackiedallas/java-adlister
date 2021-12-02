@@ -15,7 +15,7 @@
     </select>
     <br> <br>
     <label for="sauceType">Sauce</label>
-    <select name="sauce" id="sauceType">
+    <select name="sauceType" id="sauceType">
         <option value="traditional">Traditional</option>
         <option value="alfredo">Alfredo</option>
         <option value="bbq">BBQ</option>
