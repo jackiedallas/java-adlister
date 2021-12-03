@@ -10,16 +10,20 @@
 <html>
 <head>
     <jsp:include page="../partials/head.jsp">
-        <jsp:param name="title" value="Login"/>
+        <jsp:param name="title" value="Current Advertisements"/>
     </jsp:include>
 </head>
 <body>
     <jsp:include page="../partials/navbar.jsp" />
-    <c:forEach var="ad" items="${ads}">
-        <div class="ad">
-            <h1>${ad.title}</h1>
-            <p>${ad.description}</p>
-        </div>
-    </c:forEach>
+    <div style="padding: 1rem">
+        <h1>Current Ads</h1>
+        <c:forEach var="ad" items="${ads}">
+            <div class="ad">
+                <h3>${ad.title}</h3>
+                <p>${ad.description}</p>
+            </div>
+        </c:forEach>
+    </div>
+
 </body>
 </html>
